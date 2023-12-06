@@ -66,12 +66,12 @@ if __name__ == "__main__":
         # Now check if it is time to change any parts
         wheels = 50000
         oil = 6000
-        print(miles_usage.miles_diff_wheels(wheels))
-        print(miles_usage.miles_diff_oil(oil))
+        miles_usage.miles_diff_wheels(wheels)
+        miles_usage.miles_diff_oil(oil)
         
         # Now return the left over miles
         print(f'You have: {miles_usage.get_wheels()} miles left before changing your wheels')
-        print(f'you have: {miles_usage.get_oil()} miles left left before changing your oil')
+        print(f'you have: {miles_usage.get_oil()} miles left before changing your oil')
         
 # Call back the main function
 if __name__ == '__main__':
